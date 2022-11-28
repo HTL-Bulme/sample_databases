@@ -4,6 +4,9 @@
 -- Alternatively, use your favorite database tool to run this script.
 -- Make sure your user has all permissions.
 
+-- Tested with
+-- MariaDB Server 10.6.11
+
 drop database if exists northwind;
 
 CREATE DATABASE IF NOT EXISTS northwind;
@@ -12,14 +15,14 @@ USE northwind;
 START TRANSACTION;
 
 CREATE TABLE Categories
-(      
+(
     CategoryID INTEGER PRIMARY KEY AUTO_INCREMENT,
     CategoryName VARCHAR(25),
     Description VARCHAR(255)
 );
 
 CREATE TABLE Customers
-(      
+(
     CustomerID INTEGER PRIMARY KEY AUTO_INCREMENT,
     CustomerName VARCHAR(50),
     ContactName VARCHAR(50),
