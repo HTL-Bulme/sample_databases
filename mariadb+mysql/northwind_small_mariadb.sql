@@ -7,6 +7,8 @@
 -- Tested with
 -- MariaDB Server 10.6.11
 
+-- License: https://opensource.org/licenses/BSD-3-Clause
+
 drop database if exists northwind_small;
 
 CREATE DATABASE IF NOT EXISTS northwind_small;
