@@ -7,10 +7,10 @@
 -- Tested with
 -- MariaDB Server 10.6.11
 
-drop database if exists northwind;
+drop database if exists northwind_small;
 
-CREATE DATABASE IF NOT EXISTS northwind;
-USE northwind;
+CREATE DATABASE IF NOT EXISTS northwind_small;
+USE northwind_small;
 
 START TRANSACTION;
 
