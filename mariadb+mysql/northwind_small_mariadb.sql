@@ -1,5 +1,5 @@
 -- Linux:
--- sudo mysql < mysql_northwind.sql
+-- sudo mariadb < northwind_small_mariadb.sql
 
 -- Alternatively, use your favorite database tool to run this script.
 -- Make sure your user has all permissions.
