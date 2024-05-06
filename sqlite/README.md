@@ -15,11 +15,18 @@ Open sqlitebrowser and import the desired `sql` file.
 ## Command-line
 
 Alternatively, create the database via
-```
-sqlite3 database.db < database.sql
+
+```shell
+sqlite3 ${database_name}.db < ${filename}.sql
 ```
 before opening it in your favorite database tool.
 
-The entity relationship diagram (`${DATABASE_NAME}_erd.png`)is included in
-this repository. When changing the database, please recreate the ERD using
+For example, create the Northwind database via
+
+```shell
+sqlite3 northwind.db < northwind_large.sqlite.sql
+```
+
+The entity relationship diagrams (`${database_name}_erd.png`) are included in
+this repository. When changing a database, please recreate the ERD using
 dbeaver's ERD feature.
